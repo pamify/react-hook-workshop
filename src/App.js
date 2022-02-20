@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { familyMadrigal, mirabelMadrigal } from "./familyMadrigal.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <img
+          src={mirabelMadrigal.image}
+          height="300px;"
+          alt={mirabelMadrigal.alt}
+        />
+        <h1>{mirabelMadrigal.description}</h1>
       </header>
-    </div>
+      <main>
+        <section>
+          {familyMadrigal.map((member) => {
+            return (
+              <div key={member.name}>
+                <img
+                  src={member.image}
+                  alt={member.alt}
+                  width="200px"
+                  height="200px"
+                />
+                <br />
+                <h2>{member.name}</h2>
+              </div>
+            );
+          })}
+        </section>
+      </main>
+    </>
   );
 }
 
