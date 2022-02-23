@@ -74,7 +74,7 @@ const familyMadrigal = [
 const mirabelMadrigal = {
   name: "Mirabel",
   description:
-    "Hi! I'm Mirabel. Today's a super special day us - The Family Madrigal. Come learn about my family!",
+    "Hi! I'm Mirabel. Today's a super special day for us - The Family Madrigal. Come learn about my family!",
   image: "https://upload.wikimedia.org/wikipedia/en/e/e7/Mirabel_Madrigal.png",
   alt: "This is me - Mirabel Madrigal",
 };
