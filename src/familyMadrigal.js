@@ -79,4 +79,24 @@ const mirabelMadrigal = {
   alt: "This is me - Mirabel Madrigal",
 };
 
-export { familyMadrigal, mirabelMadrigal };
+const camiloMadrigal = [
+  "https://upload.wikimedia.org/wikipedia/en/e/e7/Mirabel_Madrigal.png",
+  "https://img.buzzfeed.com/buzzfeed-static/static/2022-01/11/19/asset/6101eab3fcf4/sub-buzz-982-1641930392-8.png",
+  "https://static.wikia.nocookie.net/disney/images/d/d0/Pepa_Madrigal.jpg",
+  "https://static.wikia.nocookie.net/disney/images/3/33/Profile_-_Bruno_Madrigal.png",
+  "https://static.wikia.nocookie.net/disney/images/b/ba/Julieta_Madrigal.jpg",
+  "https://static.wikia.nocookie.net/disney/images/c/cf/Profile_-_Dolores_Madrigal.png",
+  "https://www.personality-database.com/profile_images/353316.png",
+  "https://static.wikia.nocookie.net/disney/images/2/2e/Antonio_Madrigal.jpg",
+  "https://static.wikia.nocookie.net/disney/images/d/df/Profile_-_Luisa_Madrigal.jpg",
+  "https://static.wikia.nocookie.net/disney/images/4/47/Profile_-_Isabela_Madrigal.png",
+  "https://www.personality-database.com/profile_images/353316.png",
+  "https://www.personality-database.com/profile_images/353316.png",
+  "https://www.personality-database.com/profile_images/353316.png",
+  "https://www.personality-database.com/profile_images/353316.png",
+  "https://www.personality-database.com/profile_images/353316.png",
+  "https://static.wikia.nocookie.net/disney/images/7/78/Mariano_Guzman.jpeg",
+  "https://static.wikia.nocookie.net/disney/images/9/90/Profile_-_F%C3%A9lix_Madrigal.png",
+];
+
+export { familyMadrigal, mirabelMadrigal, camiloMadrigal };
