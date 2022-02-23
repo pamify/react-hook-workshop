@@ -56,7 +56,7 @@ const familyMadrigal = [
   {
     name: "Isabela",
     description:
-      "My older sister Isabela is perfect in every way - She can grow flowers out of nothing (But she's the BIGGEST prima donna)",
+      "My older sister Isabela is perfect in every way - She can grow flowers out of nothing (But she's the BIGGEST prima donna).",
     image:
       "https://static.wikia.nocookie.net/disney/images/4/47/Profile_-_Isabela_Madrigal.png",
     alt: "Isabela Madrigal",
